@@ -13,6 +13,9 @@ body {
   align-items: center;
   position: relative;
 }
+.star-wrapper div {
+  transition: all 0.15s ease-in-out;
+}
 .wrapper h1 {
   position: absolute;
   top: 55%;
@@ -37,23 +40,25 @@ button {
   font-size: 13px;
   font-weight: 700;
   border-radius: 50px;
+  margin-right: 50px;
+  margin-left: auto;
+  float: right;
   color: #fff;
   cursor: pointer;
   text-transform: uppercase;
 }
 .open {
-  background-color: red;
-  margin-right: 50px;
-  margin-left: auto;
-  float: right;
+  background-color: green;
 }
 .close {
-  background-color: green;
-  margin-right: 50px;
-  margin-left: auto;
-  float: right;
+  background-color: red;
 }
-.image-wrapper h1 {
-  font-size: 40px;
-  z-index: 10;
+dialog {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-wrapper {
+  height: auto;
+  width: 500px;
 }

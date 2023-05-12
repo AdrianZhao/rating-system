@@ -4,7 +4,7 @@ import Dialog from './components/Dialog';
 import { useState } from 'react'
 
 function App() {
-  const [value, setValue] = useState(true);
+  const [value, setValue] = useState(false);
   const modelOpen = () => {
     setValue(!value);
   }
@@ -12,7 +12,9 @@ function App() {
     <main>
      <StarRating />
      <Dialog value={value} />
-     <button className='open' onClick={modelOpen} >open</button>
+     <button className={value ? 'close' : 'open'} onClick={modelOpen} >
+      {value ? 'Close' : 'Open'}
+     </button>
     </main>
   );
 }
