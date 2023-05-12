@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/AdrianZhao/rating-system.git/static/css/main.31d6cfe0.css",
-    "main.js": "/AdrianZhao/rating-system.git/static/js/main.f14a3ddc.js",
+    "main.css": "/AdrianZhao/rating-system.git/static/css/main.84bae567.css",
+    "main.js": "/AdrianZhao/rating-system.git/static/js/main.63ebf4f5.js",
     "index.html": "/AdrianZhao/rating-system.git/index.html",
-    "main.f14a3ddc.js.map": "/AdrianZhao/rating-system.git/static/js/main.f14a3ddc.js.map"
+    "main.84bae567.css.map": "/AdrianZhao/rating-system.git/static/css/main.84bae567.css.map",
+    "main.63ebf4f5.js.map": "/AdrianZhao/rating-system.git/static/js/main.63ebf4f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.f14a3ddc.js"
+    "static/css/main.84bae567.css",
+    "static/js/main.63ebf4f5.js"
   ]
 }
