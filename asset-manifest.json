@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/AdrianZhao/rating-system.git/static/css/main.31d6cfe0.css",
+    "main.js": "/AdrianZhao/rating-system.git/static/js/main.f14a3ddc.js",
+    "index.html": "/AdrianZhao/rating-system.git/index.html",
+    "main.f14a3ddc.js.map": "/AdrianZhao/rating-system.git/static/js/main.f14a3ddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.f14a3ddc.js"
+  ]
+}
