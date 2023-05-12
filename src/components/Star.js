@@ -1,7 +1,9 @@
-
-function Star() {
+import { FaStar } from 'react-icons/fa';
+function Star(props) {
   return (
-    <div>Star</div>
+    <div className={props.className ? 'yellow' : 'none'} >
+      <FaStar />
+    </div>
   )
 }
 
