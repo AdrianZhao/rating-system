@@ -5,14 +5,11 @@ import { useState } from 'react'
 
 function App() {
   const [value, setValue] = useState(false);
-  const modelOpen = () => {
-    setValue(!value);
-  }
   return (
     <main>
      <StarRating />
      <Dialog value={value} />
-     <button className={value ? 'close' : 'open'} onClick={modelOpen} >
+     <button className={value ? 'close' : 'open'} onClick={() => {setValue(!value);}} >
       {value ? 'Close' : 'Open'}
      </button>
     </main>
